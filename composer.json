@@ -1,0 +1,21 @@
+{
+  "name": "symla/phpspec-joomla-extension",
+  "description": "Joomla extension for phpspec",
+  "type": "phpspec-extension",
+  "keywords": ["joomla", "phpspec", "extension", "bdd"],
+  "authors": [
+    {
+      "name": "Josef Vrbata",
+      "email": "vrbata.josef@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Symla\\PhpSpec\\": "src"
+    }
+  },
+  "require": {
+    "phpspec/phpspec": "^2.5",
+    "symla/cli": "^1.0"
+  }
+}
