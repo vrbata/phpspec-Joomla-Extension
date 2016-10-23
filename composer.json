@@ -15,7 +15,7 @@
     }
   },
   "require": {
-    "phpspec/phpspec": "^2.5",
+    "phpspec/phpspec": "^3.0",
     "symla/cli": "^1.0"
   }
 }
